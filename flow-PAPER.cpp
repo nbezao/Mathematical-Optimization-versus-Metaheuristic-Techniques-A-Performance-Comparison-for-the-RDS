@@ -29,11 +29,13 @@ int main (int argc, char* argv[])
 			// cout << "loss" << sp.psere/1000 << endl;	// prints active power losses (kW)
 			// cout << "iteration: " << sp.ni << endl;	// prints the number of iterations of the load flow
 
-			final=clock();								// prints the runtime
-			cout << setprecision(20) << "time\t" << ((float)(final-start) )/( (float)CLOCKS_PER_SEC) << " s." << endl;
-			cout << setprecision(8);
-			tempoP =  ((float)(final-start))/((float)CLOCKS_PER_SEC);
-			sp.report();								// show the report
+					final = clock();								// imprime o tempo de execução
+					cout << setprecision(20) << "\n time:\t" << ((double)(final - comienzo)) / ((double)CLOCKS_PER_SEC) << " s." << endl;
+					cout << setprecision(6);
+					sp.tempoP = ((double)(final - comienzo)) / ((double)CLOCKS_PER_SEC);
+					sp.tempoPTOTAL = sp.tempoPTOTAL + sp.tempoP;
+					sp.relatorio();								// mostra o relatorio
+					cout << "\n TOTAL TIME:\t" << sp.tempoPTOTAL;								// show the report
 		}
 		else
 	}
