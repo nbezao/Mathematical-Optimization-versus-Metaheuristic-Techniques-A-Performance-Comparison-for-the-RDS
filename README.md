@@ -16,3 +16,9 @@ The description of the sweep flow steps can be done in detail in "flow-PAPER.cpp
 
 ########################################################################################
 
+Here is an example of using the code for the load flow for balanced distribution systems.
+
+The 33-bus system has initial losses of 202,677kW second M. E. Baran and F. F. Wu, “Network 
+reconfiguration in distribution systems for loss reduction and load balancing,” 'IEEE Trans.
+Power Del., Vol. 4, no. 2, pp. 1401-1407, Apr. 1989, is represented by the file "SP_33N.txt". 
+So, to run the power flow using the test system, from the command line it is written: Equivalent_Power_Flow (10,000) .exe SP_33N.txt
