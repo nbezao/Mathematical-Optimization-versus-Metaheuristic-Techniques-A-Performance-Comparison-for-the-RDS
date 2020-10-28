@@ -21,8 +21,4 @@ Here is an example of using the code for the load flow for balanced distribution
 This system is the 33-bus system, with initial losses of 202,677kW,  based on the system proposed in M. E. Baran and F. F. Wu, “Network 
 reconfiguration in distribution systems for loss reduction and load balancing, ”'IEEE Trans. Power Del., Vol. 4, no. 2, pp. 1401-1407, Apr. 1989.
 
-The 33-bus system is represented by the file:
-* "SP_33N.txt". 
-
-So, to run the power flow using the test system, from the command line it is written:
-* Equivalent_Power_Flow(10,000).exe SP_33N.txt
+In this case, the power flow is performed 100000 times for the 33-bus test system, from the command line it is written:
