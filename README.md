@@ -25,5 +25,6 @@ In this case, for the 33 bus test system, the energy flow is performed 100,000 t
 * @cls
 * @ g ++ -Wall -O3 -o flux.exe flux.cpp flux_definition.cpp flux_memoria.cpp
 * @ flux.exe% 1
+
 Illustrating the operation of the code that can be copied in order to verify its efficiency.
 
