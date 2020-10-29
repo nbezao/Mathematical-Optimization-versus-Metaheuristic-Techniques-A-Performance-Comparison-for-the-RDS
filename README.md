@@ -21,5 +21,9 @@ Here is an example of using the code for the load flow for balanced distribution
 This system is the 33-bus system, with initial losses of 202,677kW,  based on the system proposed in M. E. Baran and F. F. Wu, “Network 
 reconfiguration in distribution systems for loss reduction and load balancing, ”'IEEE Trans. Power Del., Vol. 4, no. 2, pp. 1401-1407, Apr. 1989.
 
-In this case, the power flow is performed 100000 times for the 33-bus test system, from the command line it is written:]
-"For (int i = 1; i <= 1000000; i++) [...]"
+In this case, for the 33 bus test system, the energy flow is performed 100,000 times from the command line written by:
+* @cls
+* @ g ++ -Wall -O3 -o flux.exe flux.cpp flux_definition.cpp flux_memoria.cpp
+* @ flux.exe% 1
+Illustrating the operation of the code that can be copied in order to verify its efficiency.
+
