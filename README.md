@@ -22,9 +22,9 @@ This system is the 33-bus system, with initial losses of 202,677kW,  based on th
 reconfiguration in distribution systems for loss reduction and load balancing, ”'IEEE Trans. Power Del., Vol. 4, no. 2, pp. 1401-1407, Apr. 1989.
 
 In this case, for the 33 bus test system, the energy flow is performed 100,000 times from the command line written by:
-* @cls
-* @ g ++ -Wall -O3 -o flux.exe flux.cpp flux_definition.cpp flux_memoria.cpp
-* @ flux.exe% 1
+
+* @ g ++ -O3 -o flow.exe flow.cpp flow_definition.cpp flow_memory.cpp
+* @ flow.exe SP33_N-PAPER.txt
 
 Illustrating the operation of the code that can be copied in order to verify its efficiency.
 
